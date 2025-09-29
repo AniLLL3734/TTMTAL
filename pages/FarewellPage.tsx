@@ -6,8 +6,8 @@ import { RadioTower, ChevronRight } from 'lucide-react';
 
 const FarewellPage: React.FC = () => {
   // YENİ SİTE BİLGİLERİNİ BURAYA YAZACAKSIN
-  const newSiteName = "Protokol Sifir"; // Buraya seçtiğin yeni, havalı ismi yaz.
-  const newSiteUrl = "https://YENI_SITENIN_URLSI.com"; // Buraya yeni sitenin URL'sini yaz.
+  const newSiteName = "Oyun Mabedi"; // Buraya seçtiğin yeni, havalı ismi yaz.
+  const newSiteUrl = "https://oyunmabedi.netlify.app/"; // Buraya yeni sitenin URL'sini yaz.
   const [countdown, setCountdown] = useState(10);
 
   useEffect(() => {
